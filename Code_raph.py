@@ -22,7 +22,6 @@ def resume_dataframe(df):
         resume_df[f'{col}_1'] = df[col].iloc[0]
         resume_df[f'{col}_2'] = df[col].iloc[1]
         resume_df[f'{col}_3'] = df[col].iloc[2]
-
     return resume_df
 
 resume_transactions = resume_dataframe(financement)
