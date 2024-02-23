@@ -8,7 +8,7 @@ from random import seed
 filepath = os.path.join(os.path.dirname(__file__), 'financement.csv')
 financement = pd.read_csv(filepath, sep=',', header=0, index_col=0)
 
-# print(financement.head(20))
+financement.head(20)
 
 #fonction detail dataframe
 def resume_dataframe(df):
@@ -27,4 +27,4 @@ def resume_dataframe(df):
 
 resume_transactions = resume_dataframe(financement)
 
-# print(resume_transactions)
+display(resume_transactions)
