@@ -1,0 +1,622 @@
+|--- categorie_Tabletop Games <= 0.50
+|   |--- categorie_Mobile Games <= 0.50
+|   |   |--- categorie_Web <= 0.50
+|   |   |   |--- categorie_Shorts <= 0.50
+|   |   |   |   |--- categorie_principale_Music <= 0.50
+|   |   |   |   |   |--- categorie_Dance <= 0.50
+|   |   |   |   |   |   |--- ecart_jours <= 29.50
+|   |   |   |   |   |   |   |--- categorie_Apps <= 0.50
+|   |   |   |   |   |   |   |   |--- continent_Autres <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- continent_Autres >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- categorie_Apps >  0.50
+|   |   |   |   |   |   |   |   |--- day_butoire <= 2.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- day_butoire >  2.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- ecart_jours >  29.50
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 30.50
+|   |   |   |   |   |   |   |   |--- categorie_Comics <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- categorie_Comics >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom >  30.50
+|   |   |   |   |   |   |   |   |--- categorie_principale_Comics <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- categorie_principale_Comics >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- categorie_Dance >  0.50
+|   |   |   |   |   |   |--- continent_Autres <= 0.50
+|   |   |   |   |   |   |   |--- continent_Amerique_du_Nord <= 0.50
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 10.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom >  10.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- continent_Amerique_du_Nord >  0.50
+|   |   |   |   |   |   |   |   |--- ecart_jours <= 57.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- ecart_jours >  57.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- continent_Autres >  0.50
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- categorie_principale_Music >  0.50
+|   |   |   |   |   |--- categorie_Latin <= 0.50
+|   |   |   |   |   |   |--- categorie_Electronic Music <= 0.50
+|   |   |   |   |   |   |   |--- categorie_Country & Folk <= 0.50
+|   |   |   |   |   |   |   |   |--- categorie_Metal <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- categorie_Metal >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- categorie_Country & Folk >  0.50
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 25.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom >  25.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- categorie_Electronic Music >  0.50
+|   |   |   |   |   |   |   |--- nombre_mots_nom <= 4.50
+|   |   |   |   |   |   |   |   |--- objectif_usd <= 605.20
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- objectif_usd >  605.20
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- nombre_mots_nom >  4.50
+|   |   |   |   |   |   |   |   |--- month_lancement <= 4.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- month_lancement >  4.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- categorie_Latin >  0.50
+|   |   |   |   |   |   |--- monaie_CAD <= 0.50
+|   |   |   |   |   |   |   |--- ecart_jours <= 22.50
+|   |   |   |   |   |   |   |   |--- ecart_jours <= 19.00
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- ecart_jours >  19.00
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- ecart_jours >  22.50
+|   |   |   |   |   |   |   |   |--- year_butoire <= 2016.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- year_butoire >  2016.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- monaie_CAD >  0.50
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- categorie_Shorts >  0.50
+|   |   |   |   |--- month_lancement <= 4.50
+|   |   |   |   |   |--- monaie_GBP <= 0.50
+|   |   |   |   |   |   |--- year_butoire <= 2011.50
+|   |   |   |   |   |   |   |--- month_lancement <= 1.50
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom <= 8.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom >  8.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- month_lancement >  1.50
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 53.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom >  53.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- year_butoire >  2011.50
+|   |   |   |   |   |   |   |--- month_butoire <= 1.50
+|   |   |   |   |   |   |   |   |--- year_butoire <= 2014.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- year_butoire >  2014.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- month_butoire >  1.50
+|   |   |   |   |   |   |   |   |--- monaie_AUD <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- monaie_AUD >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- monaie_GBP >  0.50
+|   |   |   |   |   |   |--- nombre_caracteres_nom <= 19.50
+|   |   |   |   |   |   |   |--- month_lancement <= 2.50
+|   |   |   |   |   |   |   |   |--- year_lancement <= 2015.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- year_lancement >  2015.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- month_lancement >  2.50
+|   |   |   |   |   |   |   |   |--- objectif_usd <= 3892.56
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- objectif_usd >  3892.56
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- nombre_caracteres_nom >  19.50
+|   |   |   |   |   |   |   |--- month_lancement <= 3.50
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom <= 3.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom >  3.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- month_lancement >  3.50
+|   |   |   |   |   |   |   |   |--- year_lancement <= 2013.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- year_lancement >  2013.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- month_lancement >  4.50
+|   |   |   |   |   |--- year_lancement <= 2010.50
+|   |   |   |   |   |   |--- year_lancement <= 2009.50
+|   |   |   |   |   |   |   |--- objectif_usd <= 1875.00
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom <= 3.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom >  3.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- objectif_usd >  1875.00
+|   |   |   |   |   |   |   |   |--- month_lancement <= 10.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- month_lancement >  10.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- year_lancement >  2009.50
+|   |   |   |   |   |   |   |--- month_butoire <= 10.50
+|   |   |   |   |   |   |   |   |--- month_butoire <= 1.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- month_butoire >  1.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- month_butoire >  10.50
+|   |   |   |   |   |   |   |   |--- month_lancement <= 10.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- month_lancement >  10.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- year_lancement >  2010.50
+|   |   |   |   |   |   |--- month_lancement <= 8.50
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 22.50
+|   |   |   |   |   |   |   |   |--- month_lancement <= 5.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- month_lancement >  5.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom >  22.50
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 58.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom >  58.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- month_lancement >  8.50
+|   |   |   |   |   |   |   |--- objectif_usd <= 8432.50
+|   |   |   |   |   |   |   |   |--- monaie_GBP <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- monaie_GBP >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- objectif_usd >  8432.50
+|   |   |   |   |   |   |   |   |--- continent_Europe <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- continent_Europe >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |--- categorie_Web >  0.50
+|   |   |   |--- monaie_CAD <= 0.50
+|   |   |   |   |--- month_butoire <= 1.50
+|   |   |   |   |   |--- ecart_jours <= 21.50
+|   |   |   |   |   |   |--- monaie_USD <= 0.50
+|   |   |   |   |   |   |   |--- monaie_EUR <= 0.50
+|   |   |   |   |   |   |   |   |--- year_butoire <= 2016.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- year_butoire >  2016.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- monaie_EUR >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- monaie_USD >  0.50
+|   |   |   |   |   |   |   |--- categorie_principale_Journalism <= 0.50
+|   |   |   |   |   |   |   |   |--- month_lancement <= 6.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- month_lancement >  6.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- categorie_principale_Journalism >  0.50
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 48.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom >  48.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- ecart_jours >  21.50
+|   |   |   |   |   |   |--- categorie_principale_Technology <= 0.50
+|   |   |   |   |   |   |   |--- day_butoire <= 3.50
+|   |   |   |   |   |   |   |   |--- month_lancement <= 11.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- month_lancement >  11.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- day_butoire >  3.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- categorie_principale_Technology >  0.50
+|   |   |   |   |   |   |   |--- monaie_NOK <= 0.50
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom <= 6.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom >  6.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- monaie_NOK >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- month_butoire >  1.50
+|   |   |   |   |   |--- monaie_GBP <= 0.50
+|   |   |   |   |   |   |--- categorie_principale_Technology <= 0.50
+|   |   |   |   |   |   |   |--- day_butoire <= 29.50
+|   |   |   |   |   |   |   |   |--- monaie_AUD <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- monaie_AUD >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- day_butoire >  29.50
+|   |   |   |   |   |   |   |   |--- monaie_USD <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- monaie_USD >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- categorie_principale_Technology >  0.50
+|   |   |   |   |   |   |   |--- continent_Amerique_du_Nord <= 0.50
+|   |   |   |   |   |   |   |   |--- monaie_SEK <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- monaie_SEK >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- continent_Amerique_du_Nord >  0.50
+|   |   |   |   |   |   |   |   |--- year_lancement <= 2013.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- year_lancement >  2013.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- monaie_GBP >  0.50
+|   |   |   |   |   |   |--- nombre_mots_nom <= 8.50
+|   |   |   |   |   |   |   |--- month_lancement <= 3.50
+|   |   |   |   |   |   |   |   |--- categorie_principale_Technology <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- categorie_principale_Technology >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- month_lancement >  3.50
+|   |   |   |   |   |   |   |   |--- categorie_principale_Technology <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- categorie_principale_Technology >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- nombre_mots_nom >  8.50
+|   |   |   |   |   |   |   |--- year_butoire <= 2016.50
+|   |   |   |   |   |   |   |   |--- day_butoire <= 9.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- day_butoire >  9.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- year_butoire >  2016.50
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom <= 9.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom >  9.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- monaie_CAD >  0.50
+|   |   |   |   |--- month_butoire <= 6.50
+|   |   |   |   |   |--- categorie_principale_Journalism <= 0.50
+|   |   |   |   |   |   |--- year_butoire <= 2015.50
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 15.50
+|   |   |   |   |   |   |   |   |--- day_butoire <= 2.00
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- day_butoire >  2.00
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom >  15.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- year_butoire >  2015.50
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- categorie_principale_Journalism >  0.50
+|   |   |   |   |   |   |--- objectif_usd <= 10301.97
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- objectif_usd >  10301.97
+|   |   |   |   |   |   |   |--- month_butoire <= 4.50
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 40.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom >  40.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- month_butoire >  4.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- month_butoire >  6.50
+|   |   |   |   |   |--- categorie_principale_Technology <= 0.50
+|   |   |   |   |   |   |--- month_lancement <= 7.50
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- month_lancement >  7.50
+|   |   |   |   |   |   |   |--- nombre_mots_nom <= 7.50
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 18.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom >  18.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- nombre_mots_nom >  7.50
+|   |   |   |   |   |   |   |   |--- day_butoire <= 19.00
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- day_butoire >  19.00
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- categorie_principale_Technology >  0.50
+|   |   |   |   |   |   |--- year_lancement <= 2014.50
+|   |   |   |   |   |   |   |--- day_butoire <= 22.50
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 42.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom >  42.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- day_butoire >  22.50
+|   |   |   |   |   |   |   |   |--- month_butoire <= 8.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- month_butoire >  8.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- year_lancement >  2014.50
+|   |   |   |   |   |   |   |--- objectif_usd <= 2792.68
+|   |   |   |   |   |   |   |   |--- year_lancement <= 2015.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- year_lancement >  2015.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- objectif_usd >  2792.68
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |--- categorie_Mobile Games >  0.50
+|   |   |--- monaie_CAD <= 0.50
+|   |   |   |--- monaie_JPY <= 0.50
+|   |   |   |   |--- year_lancement <= 2015.50
+|   |   |   |   |   |--- monaie_GBP <= 0.50
+|   |   |   |   |   |   |--- monaie_AUD <= 0.50
+|   |   |   |   |   |   |   |--- year_lancement <= 2014.50
+|   |   |   |   |   |   |   |   |--- day_butoire <= 15.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- day_butoire >  15.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- year_lancement >  2014.50
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 40.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom >  40.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- monaie_AUD >  0.50
+|   |   |   |   |   |   |   |--- day_butoire <= 16.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- day_butoire >  16.50
+|   |   |   |   |   |   |   |   |--- month_butoire <= 7.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- month_butoire >  7.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- monaie_GBP >  0.50
+|   |   |   |   |   |   |--- nombre_mots_nom <= 6.50
+|   |   |   |   |   |   |   |--- year_lancement <= 2014.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- year_lancement >  2014.50
+|   |   |   |   |   |   |   |   |--- month_lancement <= 7.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- month_lancement >  7.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- nombre_mots_nom >  6.50
+|   |   |   |   |   |   |   |--- objectif_usd <= 1654.47
+|   |   |   |   |   |   |   |   |--- objectif_usd <= 1471.48
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- objectif_usd >  1471.48
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- objectif_usd >  1654.47
+|   |   |   |   |   |   |   |   |--- year_butoire <= 2014.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- year_butoire >  2014.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- year_lancement >  2015.50
+|   |   |   |   |   |--- monaie_SGD <= 0.50
+|   |   |   |   |   |   |--- month_lancement <= 4.50
+|   |   |   |   |   |   |   |--- year_lancement <= 2016.50
+|   |   |   |   |   |   |   |   |--- ecart_jours <= 52.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- ecart_jours >  52.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- year_lancement >  2016.50
+|   |   |   |   |   |   |   |   |--- objectif_usd <= 625.32
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- objectif_usd >  625.32
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- month_lancement >  4.50
+|   |   |   |   |   |   |   |--- continent_Asie <= 0.50
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom <= 8.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom >  8.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- continent_Asie >  0.50
+|   |   |   |   |   |   |   |   |--- day_butoire <= 5.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- day_butoire >  5.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- monaie_SGD >  0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- monaie_JPY >  0.50
+|   |   |   |   |--- class: 0.0
+|   |   |--- monaie_CAD >  0.50
+|   |   |   |--- month_butoire <= 1.50
+|   |   |   |   |--- year_lancement <= 2014.50
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- year_lancement >  2014.50
+|   |   |   |   |   |--- nombre_caracteres_nom <= 21.00
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- nombre_caracteres_nom >  21.00
+|   |   |   |   |   |   |--- year_butoire <= 2017.00
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 40.50
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom >  40.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- year_butoire >  2017.00
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- month_butoire >  1.50
+|   |   |   |   |--- ecart_jours <= 58.50
+|   |   |   |   |   |--- day_butoire <= 23.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- day_butoire >  23.50
+|   |   |   |   |   |   |--- day_butoire <= 24.50
+|   |   |   |   |   |   |   |--- month_lancement <= 5.50
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- month_lancement >  5.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- day_butoire >  24.50
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- ecart_jours >  58.50
+|   |   |   |   |   |--- objectif_usd <= 3241.92
+|   |   |   |   |   |   |--- nombre_mots_nom <= 2.50
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- nombre_mots_nom >  2.50
+|   |   |   |   |   |   |   |--- day_butoire <= 2.50
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- day_butoire >  2.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- objectif_usd >  3241.92
+|   |   |   |   |   |   |--- class: 0.0
+|--- categorie_Tabletop Games >  0.50
+|   |--- monaie_HKD <= 0.50
+|   |   |--- monaie_NZD <= 0.50
+|   |   |   |--- continent_Océanie <= 0.50
+|   |   |   |   |--- monaie_DKK <= 0.50
+|   |   |   |   |   |--- monaie_CAD <= 0.50
+|   |   |   |   |   |   |--- month_butoire <= 1.50
+|   |   |   |   |   |   |   |--- month_lancement <= 5.50
+|   |   |   |   |   |   |   |   |--- continent_Amerique_du_Nord <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- continent_Amerique_du_Nord >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- month_lancement >  5.50
+|   |   |   |   |   |   |   |   |--- year_butoire <= 2017.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- year_butoire >  2017.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- month_butoire >  1.50
+|   |   |   |   |   |   |   |--- continent_Autres <= 0.50
+|   |   |   |   |   |   |   |   |--- day_butoire <= 24.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- day_butoire >  24.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- continent_Autres >  0.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- monaie_CAD >  0.50
+|   |   |   |   |   |   |--- month_lancement <= 8.50
+|   |   |   |   |   |   |   |--- nombre_mots_nom <= 5.50
+|   |   |   |   |   |   |   |   |--- day_butoire <= 9.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- day_butoire >  9.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- nombre_mots_nom >  5.50
+|   |   |   |   |   |   |   |   |--- year_lancement <= 2016.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- year_lancement >  2016.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- month_lancement >  8.50
+|   |   |   |   |   |   |   |--- ecart_jours <= 37.00
+|   |   |   |   |   |   |   |   |--- month_butoire <= 10.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- month_butoire >  10.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- ecart_jours >  37.00
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 35.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom >  35.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- monaie_DKK >  0.50
+|   |   |   |   |   |--- day_butoire <= 25.00
+|   |   |   |   |   |   |--- day_butoire <= 4.00
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- day_butoire >  4.00
+|   |   |   |   |   |   |   |--- month_lancement <= 8.00
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 41.00
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_caracteres_nom >  41.00
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- month_lancement >  8.00
+|   |   |   |   |   |   |   |   |--- objectif_usd <= 14373.67
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- objectif_usd >  14373.67
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- day_butoire >  25.00
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- continent_Océanie >  0.50
+|   |   |   |   |--- nombre_mots_nom <= 6.50
+|   |   |   |   |   |--- ecart_jours <= 28.50
+|   |   |   |   |   |   |--- nombre_caracteres_nom <= 30.00
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 15.50
+|   |   |   |   |   |   |   |   |--- year_lancement <= 2016.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- year_lancement >  2016.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom >  15.50
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- nombre_caracteres_nom >  30.00
+|   |   |   |   |   |   |   |--- year_butoire <= 2015.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- year_butoire >  2015.50
+|   |   |   |   |   |   |   |   |--- year_butoire <= 2017.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- year_butoire >  2017.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- ecart_jours >  28.50
+|   |   |   |   |   |   |--- nombre_mots_nom <= 2.50
+|   |   |   |   |   |   |   |--- objectif_usd <= 7088.38
+|   |   |   |   |   |   |   |   |--- ecart_jours <= 36.00
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- ecart_jours >  36.00
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- objectif_usd >  7088.38
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- nombre_mots_nom >  2.50
+|   |   |   |   |   |   |   |--- objectif_usd <= 19424.01
+|   |   |   |   |   |   |   |   |--- month_butoire <= 6.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- month_butoire >  6.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- objectif_usd >  19424.01
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- nombre_mots_nom >  6.50
+|   |   |   |   |   |--- day_butoire <= 24.50
+|   |   |   |   |   |   |--- objectif_usd <= 3365.18
+|   |   |   |   |   |   |   |--- day_butoire <= 17.00
+|   |   |   |   |   |   |   |   |--- ecart_jours <= 22.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- ecart_jours >  22.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- day_butoire >  17.00
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- objectif_usd >  3365.18
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom <= 48.50
+|   |   |   |   |   |   |   |   |--- day_butoire <= 4.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- day_butoire >  4.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- nombre_caracteres_nom >  48.50
+|   |   |   |   |   |   |   |   |--- objectif_usd <= 23838.08
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- objectif_usd >  23838.08
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- day_butoire >  24.50
+|   |   |   |   |   |   |--- day_butoire <= 29.50
+|   |   |   |   |   |   |   |--- month_lancement <= 2.50
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- month_lancement >  2.50
+|   |   |   |   |   |   |   |   |--- month_butoire <= 6.00
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- month_butoire >  6.00
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- day_butoire >  29.50
+|   |   |   |   |   |   |   |--- month_butoire <= 4.00
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- month_butoire >  4.00
+|   |   |   |   |   |   |   |   |--- day_butoire <= 30.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- day_butoire >  30.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |--- monaie_NZD >  0.50
+|   |   |   |--- month_butoire <= 3.50
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- month_butoire >  3.50
+|   |   |   |   |--- objectif_usd <= 1499.99
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- objectif_usd >  1499.99
+|   |   |   |   |   |--- year_butoire <= 2015.50
+|   |   |   |   |   |   |--- ecart_jours <= 30.50
+|   |   |   |   |   |   |   |--- nombre_mots_nom <= 5.50
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom <= 3.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- nombre_mots_nom >  3.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- nombre_mots_nom >  5.50
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- ecart_jours >  30.50
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- year_butoire >  2015.50
+|   |   |   |   |   |   |--- ecart_jours <= 18.00
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- ecart_jours >  18.00
+|   |   |   |   |   |   |   |--- month_lancement <= 9.50
+|   |   |   |   |   |   |   |   |--- day_butoire <= 15.50
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- day_butoire >  15.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- month_lancement >  9.50
+|   |   |   |   |   |   |   |   |--- objectif_usd <= 10854.72
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- objectif_usd >  10854.72
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |--- monaie_HKD >  0.50
+|   |   |--- nombre_caracteres_nom <= 54.50
+|   |   |   |--- nombre_caracteres_nom <= 42.50
+|   |   |   |   |--- year_butoire <= 2016.50
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- year_butoire >  2016.50
+|   |   |   |   |   |--- year_lancement <= 2016.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- year_lancement >  2016.50
+|   |   |   |   |   |   |--- month_butoire <= 6.00
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- month_butoire >  6.00
+|   |   |   |   |   |   |   |--- objectif_usd <= 12803.56
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- objectif_usd >  12803.56
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- nombre_caracteres_nom >  42.50
+|   |   |   |   |--- class: 1.0
+|   |   |--- nombre_caracteres_nom >  54.50
+|   |   |   |--- class: 0.0
